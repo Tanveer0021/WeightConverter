@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="icon" href="weight.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Weight Converter</h1>
+
+        <input type="number" id="input" value="0"><br>
+
+        <input type="radio" id="toKgs" name="unit">
+        <label for="toKgs">Pounds ➡️ Kilograms</label><br>
+        
+        <input type="radio" id="toLbs" name="unit">
+        <label for="toLbs">Kilograms ➡️ Pounds</label><br>
+        
+        <button type = "button"  onclick="convert()">submit</button>
+        
+        <p id="result"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
